@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  transition: background-color 0.5s ease;
+  background-color: #FFFACD; /* Lemon color */
+}
+
+.content{
+margin-top: 250px;
+margin-left: 700px;
+
+ >h1{
+  color: #293264;
+
+font-family: Karla;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+
+ }
+
+
+}
+
+.btn{
+  border-radius: 15px;
+background: #4D5B9E;
+padding: 15px;
+color: white;
+margin-left: 35px;
+font-size: 21.25px;
+
+
+}
+
+
+.quiz-content{
+  margin-left:400px ;
+
+
+  padding: 50px;
+  >hr{
+    margin-right: 430px;
+  }
+
+}
+.quiz-footer {
+  text-align: center;
+
+ margin-top: -30px;
+}
+
+.question-section {
+  margin-bottom: 20px;
+}
+
+.options button {
+  background-color: white; 
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  
+}
+.options button:hover{
+  background-color:#D6DBF5;
+}
+
+
+
+.check-answers-btn {
+  padding: 10px 20px;
+  background-color: #4D5B9E;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+ 
+}
+
+
+.play-again-btn{
+  padding: 10px 20px;
+  background-color: #4D5B9E;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+
+
+.options{
+  margin-bottom: 30px;
+}
